@@ -1,5 +1,5 @@
 import mysql.connector as a
-con = a.connect(host="localhost",user="root",passwd="Manojkhu123",database="library")
+con = a.connect(host="localhost",user="root",passwd="root",database="library")
 
 def addbook():
       bn = input("Enter book name:")
